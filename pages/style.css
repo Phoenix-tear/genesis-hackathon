@@ -1,0 +1,97 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+body{
+    background-image:url(../Assets/login.png) ;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logoSvg{
+    width: 90%;
+}
+
+#sigin{
+    background-color: rgba(251, 251, 251, 0.8);
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+
+#loginPg{
+    background-color: rgba(251, 251, 251, 0.814);
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+
+#details{
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgba(113, 32, 218, 0.275);
+    color: rgb(0, 0, 0);
+    width: 30vw;
+    padding: 20px;
+    border: none;
+}
+#details::placeholder{
+    color: black;
+}
+
+#details:focus{
+    outline: none;
+    border: 3px solid rgb(78, 17, 153);
+
+}
+
+#text{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+#loginBtn{
+    border-radius: 10px;
+    background-color: rgb(124, 22, 248);
+    color: white;
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    transition: all 0.5s;
+}
+
+#loginBtn:hover{
+    background-color: rgb(148, 70, 244);
+}
+
+#loginBtn:active{
+    background-color: rgb(124, 22, 248);
+}
+
+#btnForgetPass{
+    font-size:20px;
+}
+
+#btnForgetPass:hover{
+    color: rgb(83, 43, 226);
+}
+
+#bottom{
+    font-size:10px
+}
+
+#login{
+    border: none;
+    color: rgb(83, 43, 226);
+    text-decoration: none;
+}
+
+#createAccount:hover{
+    color: rgb(83, 43, 226);
+}
+
+#space{
+    margin-top: 10px;
+ }

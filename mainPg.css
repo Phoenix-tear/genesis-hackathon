@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+#buttonNavbar {
+    color: #ffffff;
+    background-color: #8c52ff;
+    transition: all 0.3s;
+    width: 25vw;
+    margin-right: 0px;
+    margin-top:1vh;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+#buttonNavbar:hover {
+    box-shadow: 0px, 0px, 15px #8c52ff 0px, 0px, 25px #a075f5;
+    transform: scale(1.10);
+}
+
+#navText {
+    font-size: 5vh;
+}
+
+#imgCrypto {
+    overflow: hidden;
+    width: 110%;
+    position: relative;
+}
+#gifCrypto{
+    width: 140%;
+}
+#text {
+    font-size: 70px;
+    text-wrap: nowrap;
+}
+#text p{
+    height: 10vh;
+}
+#buttonStart {
+    color: #ffffff;
+    background-color: #8c52ff;
+    transition: all 0.3s;
+    width: 25vw;
+    font-size: 25px;
+}
+
+#buttonStart:hover {
+    box-shadow: 0px, 0px, 25px #8c52ff 0px, 0px, 50px #75bef5;
+    transform: scale(1.10);
+}
+
+#rotateBox {
+    width: 200px;
+    height: 300px;
+    background-color: #8c52ff;
+    rotate: 160deg;
+    position: fixed;
+    overflow: hidden;
+    left: 20em;
+}
+
+#manGif{
+    margin-left: 70px;
+    width: 98%;
+}
+
+.gif{
+    margin-top: 11vh;
+}
